@@ -14,11 +14,11 @@ Użyte komponenty:
 Algorytm dziaania:  
 
 Zmienne odpowiadajace ledą w ukladzie: 
-
+   ```
    pins = [18, 17, 16, 15, 14, 13, 10]
 
    leds = [PWM(Pin(p)) for p in pins] 
-
+   ```
 Pętle które odpowiadają za miganie ledów*(Fade in-out): 
 
      for duty in range(0, 65536, 15000):
