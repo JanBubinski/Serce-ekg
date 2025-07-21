@@ -48,7 +48,7 @@ j=0
 ```
 Dzialanie lcd: 
 
-  lcd.move_to(0, 0)
+     lcd.move_to(0, 0)
         
         for col in range(16):
             index = (i + col) % len(frame1)
