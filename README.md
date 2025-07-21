@@ -29,3 +29,14 @@ Pętle które odpowiadają za miganie ledów*(Fade in-out):
         for led in leds:
             led.duty_u16(duty)
         sleep(0.03)
+
+Zmienne odpowiadajace lcd w ukladzie: 
+
+
+Dzialanie lcd: 
+
+
+
+
+
+
