@@ -48,7 +48,24 @@ j=0
 ```
 Dzialanie lcd: 
 
-
+  lcd.move_to(0, 0)
+        
+        for col in range(16):
+            index = (i + col) % len(frame1)
+            lcd.putchar(chr(frame1[index]))
+        sleep(timer)
+     
+    
+        lcd.move_to(0, 1)
+        
+        for col in range(16):
+            index = (j+col) % len(frame2)
+            lcd.putchar(chr(frame2[index]))
+        sleep(timer)
+        
+        i = (i + 1) % len(frame1)
+        j = (j + 1) % len(frame2)
+        
 
 
 
