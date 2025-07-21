@@ -15,8 +15,9 @@ Algorytm dziaania:
 
 Zmienne odpowiadajace ledą w ukladzie: 
 
-pins = [18, 17, 16, 15, 14, 13, 10]
-leds = [PWM(Pin(p)) for p in pins] 
+   pins = [18, 17, 16, 15, 14, 13, 10]
+
+   leds = [PWM(Pin(p)) for p in pins] 
 
 Pętle które odpowiadają za miganie ledów*(Fade in-out): 
 
