@@ -20,8 +20,9 @@ leds = [PWM(Pin(p)) for p in pins]
 
 Pętla która odpowiada za miganie ledów*(Fade in-out): 
 
-for led in leds:
+
+    for led in leds:
     
     led.freq(10000)
     
-    led.duty_u16(0)
+     led.duty_u16(0)
