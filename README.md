@@ -26,4 +26,9 @@ Pętla która odpowiada za miganie ledów*(Fade in-out):
     
     led.freq(10000)
     
-     led.duty_u16(0)
+     led.duty_u16(0) 
+
+     for duty in range(65535, -1, -15000):
+        for led in leds:
+            led.duty_u16(duty)
+        sleep(0.03)
